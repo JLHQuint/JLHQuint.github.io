@@ -8,11 +8,193 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+
+	<style>
+		body {
+			background-color: #e2e2e2;
+			margin: 0px;
+		}
+
+		/* --------------------------- navigation bar -------------------------------- */
+		.nav-bar {
+			position: fixed;
+			top: 0px;
+			font-size: 20px;
+			line-height: 44px;
+			width: 100vw;
+		}
+
+		.nav-bar ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #FFFFFF;
+		}
+
+		.nav-bar li {
+			float: right;
+		}
+		
+		.nav-bar li a {
+			display: block;
+			color: #2F2E33;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		.nav-bar .signiture {
+			float:left;
+		}
+
+		/* ------------------------------------ main content | profile ---------------------------------- */
+		.main-content {
+			text-align: center;
+			color: #000000;
+		}
+
+		.main-content .profile-photo {
+			border-radius: 50%;
+			background-color: #4D648D;
+			height: 300px;
+			width: 300px;
+			margin: auto;
+			margin-top: 200px;
+		}
+
+		.main-content .title {
+			margin-bottom: 90px;
+		}
+
+		/* -------------------------------------- maine content | portfolio ------------------------ */
+		.main-content .portfolio {
+			padding-top: 20px;
+			font-size: 26px;
+		}
+
+		.main-content .portfolio .custom-screen {
+			display: inline-block;
+			text-align: center;
+			padding-bottom: 50px;
+		}
+
+		.main-content .portfolio .custom-screen .cs-container {
+			margin: 25px 50px;
+		}
+
+		.main-content .portfolio .custom-screen .cs-container img {
+			width: 400px;
+			height: auto;
+		}
+
+		.main-content .portfolio .custom-screen a {
+			color: #000000 !important;
+			font-size: 22px;
+			text-decoration: none;
+		}
+
+		.main-content .portfolio .custom-screen a:hover {
+			color: #4D648D !important;
+			font-weight: bold !important;
+		}
+
+		.main-content .portfolio .landing-page {
+			display: inline-block;
+			text-align: center;
+			padding-bottom: 50px;
+		}
+
+		.main-content .portfolio .landing-page .lp-container {
+			background-color: #4D648D;
+			height: 200px;
+			width: 400px;
+			margin: 25px 50px;
+		}
+
+		/* ----------------------------------- maine content | resume ------------------------------ */
+		.main-content .resume {
+			padding-top: 20px;
+			font-size: 26px;
+		}
+
+		/* ----------------------------------------- footer -------------------------------------- */
+		.contact-footer {
+			height: 200px;
+			width: 100vw;			
+			background-color: #2F2E33;
+			bottom: 0px;
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+			font-size: 20px;
+		}
+
+		 .contact-footer p {
+			color: #FFFFFF !important;
+			padding-left: 100px;
+			padding-top: 75px;
+		}
+	</style>
 
 </head>
 <body>
 
-    <p>Hello World!</p>
+
+	<div class="nav-bar">
+		<ul>
+			<li class="signiture"><a href="#signiture">JESSAMYN QUINT</a></li>
+			<li><a href="#resume">RESUME</a></li>
+			<li><a href="#portfolio">PORTFOLIO</a></li>
+			<li><a href="#aboutme">ABOUT ME</a></li>
+		</ul>
+	</div>
+
+	<div class="main-content">
+
+		<div class="profile-photo">
+		</div>
+
+		<div class="title">
+			<h1>Jessamyn Quint</h1>
+			<h2>Computer Science Major</h2>
+		</div>
+
+		<hr>
+
+		<div class="portfolio">
+			<h3>Portfolio</h3>
+
+			<div class="custom-screen">
+				<div class="cs-container">
+					<a href="" target="_blank">
+						<img src="images/ally_growth_screen.png" alt="">
+					</a>
+				</div>
+				<a href="" target="_blank">Custom Screen</a>
+			</div>
+
+			<div class="landing-page">
+				<div class="lp-container">
+					<a href="" target="_blank"></a>
+				</div>
+				<a href="" target="_blank">Landing Page</a>
+			</div>
+
+		</div>
+
+		<hr>
+
+		<div class="resume">
+			<h3>Resume</h3>
+		</div>
+
+	</div>
+		
+	<div class="contact-footer">
+		<p>Jessamyn Quint | jessamynquint@gmail.com</p>
+	</div>
+
+
 </body>
 </html>
