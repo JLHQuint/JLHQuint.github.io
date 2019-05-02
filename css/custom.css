@@ -1,0 +1,360 @@
+body {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #eaeaea;
+    color: #2f2e33;
+}
+
+hr {
+    background-color: #544d4c;
+}
+
+.row {
+    padding-top: 100px;
+}
+
+.container-fluid div h3 {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2f2e33;
+}
+
+/* ----------------------------------------- nav-bar -------------------------------------- */
+nav {
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    background-color: #eaeaea;
+    z-index: 1 !important;
+}
+
+nav p {
+    display: inline-block;
+}
+
+ol.breadcrumb {
+    background-color: #eaeaea;
+    float: right;
+    padding-right: 40px;
+}
+
+ol.breadcrumb a {
+    color: #7c7984;
+    text-decoration: none;
+}
+
+ol.breadcrumb a:hover {
+    font-weight: bold;
+}
+
+.breadcrumb-item.active a {
+    color: #2f2e33;
+    font-weight: bold;
+}
+
+#signiture {
+    color: #2f2e33;
+    font-weight: bold;
+    margin: 1% 0% 0% 1%;
+}
+
+/* ----------------------------------------- HOME -------------------------------------- */
+#home {
+    text-align: center;
+}
+
+#home .col img {
+    width: 30%;
+    margin: auto;
+    border: solid 5px #2f2e33;
+    border-radius: 50%;
+}
+
+/* ----------------------------------------- ABOUT ME -------------------------------------- */
+#about-me div {
+    padding: 15px;
+}
+
+#about-me .bd-example {
+    width: 100%;
+}
+
+#about-me .carousel-caption {
+    color: #2f2e33;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#about-me .d-block {
+    width: 100%;
+}
+
+#about-me li {
+    background-color: #2f2e33;
+}
+
+/* ----------------------------------------- PORTFOLIO -------------------------------------- */
+#portfolio h5 {
+    font-weight: bold;
+}
+
+#portfolio p {
+    display: block;
+    width: 100%;
+}
+
+#portfolio .card {
+    border: solid #2f2e33 3px;
+    margin-top: 15px;
+    height: 400px;
+}
+
+#portfolio .card .btn {
+    background-color: #2f2e33;
+    border-color: #2f2e33;
+    color: white;
+}
+
+/* ----------------------------------------- PORTFOLIO-C-------------------------------------- */
+/* -------------------- Recreated section using CSS and no Bootstrap grid -------------------- */
+
+#portfolio-c {
+    padding-top: 100px;
+}
+
+#portfolio-c .left,
+#portfolio-c .middle,
+#portfolio-c .right {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+#portfolio-c h5 {
+    font-weight: bold;
+}
+
+#portfolio-c p {
+    display: block;
+    width: 100%;
+}
+
+#portfolio-c .card {
+    border: solid #2f2e33 3px;
+    margin-top: 15px;
+    height: 400px;
+}
+
+#portfolio-c .card .btn {
+    background-color: #2f2e33;
+    border-color: #2f2e33;
+    color: white;
+}
+
+/* ----------------------------------------- WORKS IN PROGRESS -------------------------------------- */
+#WOP {
+    width: 100%;
+    height: 600px;
+}
+
+#WOP .jumbotron {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/wa0.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#WOP .container {
+    width: 450px;
+    padding-top: 90px;
+}
+
+#WOP .container h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#WOP .btn {
+    background-color: #304C87;
+    border-color: #304C87;
+    color: white;
+}
+
+/* ----------------------------------------- RESUME -------------------------------------- */
+#resume {
+    margin-bottom: 100px;
+    font-size: 16px;
+}
+
+#resume div {
+    background-color: white;
+    padding-bottom: 1%;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+#resume .name {
+    text-align: center;
+    Font-size: 24px;
+    padding-top: 50px;
+}
+
+#resume .heading {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#resume ul.no-bullets {
+    list-style: none;
+}
+
+#resume .col-3 {
+    text-align: right;
+}
+
+#resume .col-3 ul {
+    padding-left: 0px;
+}
+
+/* ----------------------------------------- modals -------------------------------------- */
+.modal-content img {
+    width: 100%;
+    height: auto;
+}
+
+.modal-content a {
+    color: orangered;
+}
+
+.modal-content p {
+    padding: 15px;
+}
+
+/* ----------------------------------------- footer -------------------------------------- */
+.contact-footer {
+    position: relative;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background-color: #2f2e33;
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 75px;
+}
+
+.contact-footer a {
+    color: white;
+    font-size: 150%;
+}
+
+.contact-footer a:hover {
+    font-size: 175%;
+}
+
+/* -------------------- Responsiveness for Portfolio Section 2 -------------------- */
+@media only screen and (max-width: 1200px) {
+    #portfolio-c {
+        width: 100%;
+        display: block;
+    }
+
+    #portfolio-c h5{
+        font-size: 16px;
+    }
+
+    #portfolio-c p {
+        font-size: 14px;
+    }
+
+    #portfolio-c .left,
+    #portfolio-c .middle,
+    #portfolio-c .right {
+        display: block !important;
+        width: 50% !important;
+        margin: auto;
+    } 
+
+    #portfolio-c .card {
+        display: block !important;
+        width: 100% !important;
+    } 
+}
+
+@media only screen and (max-width: 850px) {
+    #portfolio-c {
+        width: 100%;
+        display: block;
+    }
+
+    #portfolio-c .left,
+    #portfolio-c .middle,
+    #portfolio-c .right {
+        display: block !important;
+        width: 300px!important;
+        margin: auto;
+    } 
+
+    #portfolio-c .card {
+        display: block !important;
+        width: 100% !important;
+        height: 380px;
+    } 
+}
+
+/* -------------------- Responsiveness for Study Abroad Web App -------------------- */
+@media only screen and (max-width: 1200px) {
+    #WOP .container {
+        width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #WOP .container {
+        width: 200px !important;
+    }
+    #WOP .container h1 {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    #WOP .container p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #WOP .container {
+        width: 160px !important;
+    }
+    #WOP .container h1 {
+        font-size: 14px;
+        padding-top: 40px;
+    }
+    #WOP .container p {
+        font-size: 12px;
+    }
+}
+
+/* -------------------- Was trying to also make resume responsive even though it is not required -------------------- */
+@media only screen and (max-width: 500px) {
+    #resume {
+        font-size: 12px;
+    }
+
+    #resume .name {
+        font-size: 18px;
+    }
+
+    #resume .heading {
+        font-size: 14px;
+    }
+}
